@@ -3,6 +3,8 @@ Custom CA inside docker image
 
 ## Build and run instructions 
 
+> ./generate_ca.sh
+
 > docker build -t sleeper:v1 .
 
 > docker run --name=sleeper60 sleeper:v1 -- 60
